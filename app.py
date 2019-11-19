@@ -3,15 +3,11 @@ import json
 from AI import AI
 from predict import RED
 app = Flask(__name__)
-ai = AI()
 redn = RED()
 @app.route("/upload/<string:file>")
 def upload(file):
     prediccion = redn.predict(file)
     return prediccion
-@app.route("/ia/<string:ataque>")
-def ia(ataque):
-    return ai.predict(ataque.split(','))
 @app.route("/upload", methods=["GET", "POST"])
 def upload_file():
     if request.method == "POST":
