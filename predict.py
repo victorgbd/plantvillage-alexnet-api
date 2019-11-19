@@ -7,8 +7,8 @@ graph = tf.get_default_graph()
 class RED:
     def __init__(self):
       self.longitud, self.altura = 224, 224
-      modelo = './modelo/AlexNetModel.hdf5'
-      pesos_modelo = './modelo/best_weights_9.hdf5'
+      modelo = './modelo/modelo.hdf5'
+      pesos_modelo = './modelo/pesos.hdf5'
       self.cnn = load_model(modelo)
       self.cnn.load_weights(pesos_modelo)
 
