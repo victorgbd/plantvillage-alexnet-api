@@ -11,5 +11,5 @@ def upload(file):
     #prediccion contiene el json a retornar
     return prediccion    
 if __name__ == "__main__":
-    #corremos nuetro servidors
+    #corremos nuetro servidor
     app.run(debug=True,port=5000)
