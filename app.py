@@ -1,5 +1,6 @@
 from flask import Flask, request
 from predict import RED
+#instanciamos el objeto Flask
 app = Flask(__name__)
 #instanciamos el objeto RED
 redn = RED()
