@@ -80,7 +80,7 @@ li = list(class_dict.keys())
 classifier = Sequential()
 
 # Capa de convolucion Paso 1
-classifier.add(Convolution2D(filtrosConv1, 11, strides = (4, 4), padding = 'valid', input_shape=(224, 224, 3), activation = 'relu',trainable=False))
+classifier.add(Convolution2D(filtrosConv1, 11, strides = (4, 4), padding = 'valid', input_shape=(longitud, altura, 3), activation = 'relu',trainable=False))
 
 # Capa de  Max Pooling  Paso 1
 classifier.add(MaxPooling2D(pool_size = tamano_pool, strides = (2, 2), padding = 'valid', trainable=False))
