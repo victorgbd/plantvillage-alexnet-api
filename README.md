@@ -5,6 +5,7 @@ este modelo esta compuesto por una arquitectura de red neuronal convolucional ll
 
 ### Pre-requisitos 📋
 - [Anaconda](https://www.anaconda.com/)
+- [New Plant village Dataset](https://www.kaggle.com/vipoooool/new-plant-diseases-dataset/download)
 
 
 _Tensorflow >1.9_
