@@ -33,7 +33,7 @@ python app.py
 ```
 _tendremos ejecutando nuestro servidor así_
 
-![imagenes/1](imagenes/1.png)
+![imagenes/ua](imagenes/ua.PNG)
 
 ## Ejecutando las pruebas ⚙️
 
