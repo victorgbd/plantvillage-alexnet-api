@@ -1,6 +1,6 @@
 # Plantvillage-Alexnet-API
 
-_Este es una API REST que utiliza un modelo de red neuronal convolucional entrenado en base al dataset de plantvillage,
+_Esta es una API REST que utiliza un modelo de red neuronal convolucional entrenado en base al dataset de plantvillage,
 este modelo esta compuesto por una arquitectura de red neuronal convolucional llamada la AlexNet, con la cual se busca predecir enfermedades de plantas mediante imagenes._
 
 ### Pre-requisitos 📋
