@@ -56,7 +56,7 @@ _Escribimos esta ruta en el navegador_
 
 ## Wiki 📖
 
-Puedes leer mas sobre el entrenamiento con el dataset plantvillage [Documentacion](https://github.com/victorgbd/plantvillage-alexnet-api/blob/master/documentacion.pdf)
+Puedes leer mas sobre el entrenamiento con el dataset plantvillage [Documentación](https://github.com/victorgbd/plantvillage-alexnet-api/blob/master/documentacion.pdf)
 
 ## Licencia 📄
 
