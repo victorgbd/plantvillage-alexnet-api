@@ -17,7 +17,7 @@ _Keras_
 ```
 conda install -c conda-forge keras
 ```
-### Entrenamiento
+### Entrenamiento :weight_lifting_man:
 _Tener nuestro dataset de imagenes de Plantvillage en la carpeta del proyecto_
 _Cambiar rutas de los archivos en el archivo entrenar.py_
 
