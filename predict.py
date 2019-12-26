@@ -3,7 +3,7 @@ from keras.preprocessing.image import load_img, img_to_array
 from keras.models import load_model
 import tensorflow as tf
 import json
-#traemos el la sesión del grafo computacional predeterminda y lo igualamos a graph
+#traemos la sesión del grafo computacional predeterminda y lo igualamos a graph
 graph = tf.get_default_graph()
 
 class RED:
