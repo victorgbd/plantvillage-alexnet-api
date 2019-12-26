@@ -35,7 +35,7 @@ class RED:
         
       #la predicciones se encuentran en la posicion 0
       result = array[0]
-      #organizamos de mayor a menor los resultados
+      #elegimos un top 3 de los indices de mayor probabilidad
       indexs=result.argsort()[-3:][::-1]
       aux=[]
       index=[]
